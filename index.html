@@ -1,0 +1,604 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <!-- 彈窗-->
+    <link href="js/lity/lity.css" rel="stylesheet" type="text/css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+    <!-- 彈窗-->
+    <script src="js/lity/lity.js"></script>
+    <link href="css/loading.min.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>中国彩友会</title>
+</head>
+
+<body>
+
+    <img src="images/bg-r.png" alt="" class="bg-right">
+    <img src="images/bg-l.png" alt="" class="bg-left">
+
+    <!-- 獲獎彈窗 -->
+    <div class="md md-award">
+        <div class="md-modal">
+            <button class="lity-close md-close" onclick="pauseVid()" type="button">×</button>
+            <div class="md-content">
+                <img src="images/md-top.png" alt="" class="md-top">
+                <div class="md-inner">
+                    <div>
+                        <img src="images/md-award.png" alt="" class="md-title">
+                    </div>
+                    <div class="m_20">
+                        <div class="md-text">
+                            <span class="name">达人礼金</span>
+                            <span class="num">170,000</span>
+                        </div>
+                        <div class="md-text">
+                            <span class="name">周周息</span>
+                            <span class="num">2,500</span>
+                        </div>
+                        <div class="md-text">
+                            <span class="name">月月益</span>
+                            <span class="num">2,500</span>
+                        </div>
+                        <div class="md-text">
+                            <span class="name">季季送</span>
+                            <span class="num">2,500</span>
+                        </div>
+                        <div class="md-text">
+                            <span class="name">拍卖金矿</span>
+                            <span class="num">2,500</span>
+                        </div>
+                        <div class="md-text">
+                            <span class="name">新品尝鲜惠</span>
+                            <span class="num">2,500</span>
+                        </div>
+                        <div class="md-text">
+                            <span class="name">注册满年礼</span>
+                            <span class="num">2,500</span>
+                        </div>
+                    </div>
+                    <a href="#" class="md-btn">一键领取</a>
+                    <div style="text-align: center;font-size: 18px;color:#bb6900">
+                        <span>登入会员帐号 > 会员中心 > 我的优惠</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="md-overlay" onclick="pauseVid()"></div>
+    </div>
+
+    <!-- 攻略彈窗 -->
+    <div class="md md-guide">
+
+        <div class="md-modal">
+            <button class="lity-close md-close" onclick="pauseVid()" type="button">×</button>
+            <div class="md-content">
+                <img src="images/md-top.png" alt="" class="md-top">
+                <div class="md-inner">
+                    <div>
+                        <img src="images/md-guide.png" alt="" class="md-title">
+                    </div>
+                    <div>
+                        <div class="md-guide-box m_10">
+                            <span>
+                                <img src="images/md-guide-01.png" alt="">
+                            </span>
+                            <span>
+                                畅玩彩票游戏
+                            </span>
+                        </div>
+                        <div class="md-guide-box m_10">
+                            <span>
+                                <img src="images/md-guide-02.png" alt="">
+                            </span>
+                            <span>
+                                挑战岛主彩富<br>
+                                培养金矿等级
+                            </span>
+                        </div>
+                        <div class="md-guide-box m_10">
+                            <span>
+                                <img src="images/md-guide-03.png" alt="">
+                            </span>
+                            <span>
+                                每周每月每季每年<br>领配息耍特权
+                                <br>
+                                <a href="#" class="md-guide-btn">配息说明</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/md-guide-title.png" alt="" class="md-title">
+                        <div class="md-guide-step">
+                            <span>
+                                <p>登入帐号</p>
+                                <img src="images/md-guide-icon01.png" alt="">
+                            </span>
+                            <i class="fa fa-caret-right"></i>
+                            <span>
+                                <p>会员中心</p>
+                                <img src="images/md-guide-icon02.png" alt="">
+                            </span>
+                            <i class="fa fa-caret-right"></i>
+                            <span>
+                                <p>我的优惠</p>
+                                <img src="images/md-guide-icon03.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="md-overlay" onclick="pauseVid()"></div>
+    </div>
+
+    <!-- 廣宣彈窗 -->
+    <div class="md md-act">
+
+        <div class="md-modal">
+            <button class="lity-close md-close" onclick="pauseVid()" type="button">×</button>
+            <div class="md-content">
+                <img src="images/md-top.png" alt="" class="md-top2">
+
+                <img src="images/act.png" alt="" style="border-radius: 30px;">
+
+            </div>
+        </div>
+        <div class="md-overlay" onclick="pauseVid()"></div>
+    </div>
+
+    <!-- gotop -->
+    <div class="gotop">
+        <a href="javascript:;"></a>
+    </div>
+
+    <header class="m_10">
+        <div class="container">
+
+            <h1>
+                <img src="images/logo.svg" alt="" width="100">
+            </h1>
+            <a href="javascript:;" class="menu_button">
+                <div class="menuicon"></div>
+            </a>
+            <nav class="menu">
+                <div class="member">
+                    <span style="color:#365ecb;">亲爱的会员</span>
+                    <span style="color:#32b0aa;">lucky168</span>
+                    <span style="color:#365ecb;">您好!</span>
+                </div>
+                <ul>
+                    <li class="md-award_bth"><a href="javascript:;">一键领取</a></li>
+                    <li class="md-guide_bth"><a href="javascript:;">攻　　略</a></li>
+                    <li class="md-act_bth"><a href="javascript:;" class="m_a">手机下注</a></li>
+                    <li><a href="javascript:;" class="m_b">线上客服</a></li>
+                    <li><a href="javascript:;" class="m_c">登　　出</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="menu_mob">
+            <div class="member">
+                <span style="color:#365ecb;">亲爱的会员</span>
+                <span style="color:#32b0aa;">lucky168</span>
+                <span style="color:#365ecb;">您好!</span>
+            </div>
+            <ul>
+                <!-- 連結為彈窗功能示意 正式版請協助修改 一鍵領取 與 線上客服會拿掉 會在外部呈現-->
+                <li class="md-award_bth"><a href="javascript:;">一键领取</a></li>
+                <li class="md-guide_bth"><a href="javascript:;">攻　　略</a></li>
+                <li class="md-act_bth"><a href="javascript:;" class="m_a">手机下注</a></li>
+                <li><a href="javascript:;" class="m_b">线上客服</a></li>
+                <li><a href="javascript:;" class="m_c">登　　出</a></li>
+            </ul>
+        </nav>
+        <div class="md-overlay"></div>
+        <div class="menu_below">
+            <!-- 登入時 選項 -->
+            <a href="">
+                <img src="images/mob-btn01.png" alt="">
+            </a>
+            <a href="">
+                <img src="images/mob-btn02.png" alt="">
+            </a>
+            <a href="">
+                <img src="images/mob-btn03.png" alt="">
+            </a>
+        </div>
+    </header>
+    <!-- 跑馬燈 -->
+    <section class="main m_10">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div style="position: relative;">
+                        <span class="marquee-coin"><img src="images/coin.png" alt=""></span>
+                        <marquee scrollamount="6" style="color:#f35b1e;margin: 0 25px;">
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                            <span>恭喜abc ***获得 ¥2,000元 </span>
+                        </marquee>
+                        <span class="marquee-coin2"><img src="images/coin.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 標題與會員狀態區-->
+    <section style="z-index: 1;">
+        <div class="container">
+            <div class="row">
+                <!-- 標題 -->
+                <div class="col-12 col-md-6 m_20" style="position: relative;">
+                    <div class="title-box">
+                        <div class="title-item">
+                            <img class="ldx ldx-metronome" src="images/t-item01.png" alt="">
+                            <img class="ldx ldx-metronome" src="images/t-item02.png" alt="">
+                            <img class="ldx ldx-metronome" src="images/t-item03.png" alt="">
+                            <img class="ldx ldx-metronome" src="images/t-item04.png" alt="">
+                            <img class="ldx ldx-bounce" src="images/t-item05.png" alt="">
+                            <img class="ldx ldx-bounce" src="images/t-item06.png" alt="">
+                        </div>
+                        <!-- 標題變換 -->
+                        <div class="img-change">
+                            <img class="title" src="images/title.png" alt="">
+                            <img class="title" src="images/title-mob.png" alt="">
+                            <img class="title" src="images/title-mob-little.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 獎金表 -->
+                    <div class="count-main">
+                        <img class="count-title" src="images/count-title.png" alt="">
+                        <div class="count-box ldx ldx-rubber-v" style="animation-iteration-count:3">
+                            <div class="count" data-count="1900000"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-6 m_20">
+                    <div class="main-box">
+                        <div class="main-inner">
+                            <!-- 會員狀態 -->
+                            <div class="member-info">
+                                <ul>
+                                    <li class="member-pic">
+                                        <img src="images/level3.png" alt="">
+                                        <span>中国<br>首富</span>
+                                    </li>
+                                    <li class="member-level">
+                                        <div><img class="title" src="images/gold-level.png" alt=""></div>
+                                        <!-- 會員等級 -->
+                                        <div class="text">
+                                            <p>01</p>
+                                            <img src="images/gold-level2.png" alt="">
+                                        </div>
+
+                                    </li>
+                                    <li style="border-left: 2px solid #bb6900;margin: 0 2%;"></li>
+                                    <li class="member-gold">
+                                        <div><img class="title" src="images/gold-number.png" alt=""></div>
+                                        <!-- 會員等級 -->
+                                        <div class="text">
+                                            <p>456</p>
+                                            <img src="images/gold-number2.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="inner-box">
+                                <!-- 我的投注 -->
+                                <div class="member-money">
+                                    <img src="images/member-money.png" alt="">
+                                    <span class="text">我的投注</span>
+                                    <span class="member-count" data-member-count="1000000000"></span>
+
+                                </div>
+                                <div class="member-award">
+                                    <!-- 0等狀態 -->
+                                    <!-- <div class="award-level" style="background: #bdbdbd;">
+                                        <div>
+                                            <span class="remind" style="background: #8b8989;">
+                                                <img src="images/bell-zero.png" alt="">
+                                                <span>
+                                                    只差 100,000,000 元，即可再升1级
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="award-num">
+                                                <img src="images/chest-zero.png" alt="">
+                                                <span class="text" style="color:#8b8989">
+                                                    达人<br>礼金
+                                                </span>
+                                                <span class="num" style="padding: 0 20px;color:#8b8989">0</span>
+                                            </span>
+                                        </div>
+                                    </div> -->
+                                    <!-- 1-30等狀態 -->
+                                    <div class="award-level">
+                                        <div>
+                                            <span class="remind">
+                                                <img src="images/bell.png" alt="">
+                                                <span>
+                                                    只差 100,000,000 元，即可再升1级
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="award-num">
+                                                <img src="images/chest.png" alt="">
+                                                <span class="text">
+                                                    达人<br>礼金
+                                                </span>
+                                                <span class="num">800</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <!-- 未達標狀態 -->
+                                        <!-- <ul class="award-main">
+                                            <li class="award-week">
+                                                <span class="level-short">再升11级</span>
+                                                <img src="images/week-below.png" alt="">
+                                                <span class="num">8</span>
+                                                <span class="num-short">只差<br>100,000,000<br>元</span>
+                                            </li>
+                                            <li class="award-month">
+                                                <span class="level-short">再升21级</span>
+                                                <img src="images/month-below.png" alt="">
+                                                <span class="num">390</span>
+                                                <span class="num-short">只差<br>100,000,000<br>元</span>
+                                            </li>
+                                            <li class="award-season">
+                                                <span class="level-short">再升28级</span>
+                                                <img src="images/season-below.png" alt="">
+                                                <span class="num">10,000</span>
+                                                <span class="num-short">只差<br>100,000,000<br>元</span>
+                                            </li>
+                                        </ul> -->
+                                        <!-- 這裡是開通狀態 -->
+                                        <ul class="award-main">
+                                            <li class="award-week ach">
+                                                <span class="level-short-ach">再升1级</span>
+                                                <img src="images/week-ach.png" alt="">
+                                                <span class="num-ach">10</span>
+                                                <span class="num-short-ach">只差<br>100,000,000<br>元</span>
+                                            </li>
+                                            <li class="award-month">
+                                                <span class="level-short">再升10级</span>
+                                                <img src="images/month-below.png" alt="">
+                                                <span class="num">390</span>
+                                                <span class="num-short">只差<br>100,000,000<br>元</span>
+                                            </li>
+                                            <li class="award-season">
+                                                <span class="level-short">再升17级</span>
+                                                <img src="images/season-below.png" alt="">
+                                                <span class="num">10,000</span>
+                                                <span class="num-short">只差<br>100,000,000<br>元</span>
+                                            </li>
+                                        </ul>
+                                        <!-- 這裡是30級達標狀態 -->
+                                        <!-- <ul class="award-main">
+                                            <li class="award-week ach" style="padding-top:15px;">
+                                                <img src="images/week-ach.png" alt="">
+                                                <span class="num-ach" style="margin:10px 0 15px 0">2,500</span>
+                                            </li>
+                                            <li class="award-month ach" style="padding-top:15px;">
+                                                <img src="images/month-ach.png" alt="">
+                                                <span class="num-ach" style="margin:10px 0 15px 0">9,000</span>
+                                            </li>
+                                            <li class="award-season ach" style="padding-top:15px;">
+                                                <img src="images/season-ach.png" alt="">
+                                                <span class="num-ach" style="margin:10px 0 15px 0">25,000</span>
+                                            </li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                                <a href="#" class="btn-lottery ldx ldx-rubber-v">
+                                    <img src="images/btn-lottery.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 特權 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="privi-box">
+                        <div class="privi-inner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="img-change-privi">
+                                            <img src="images/privi-title.png" alt="">
+                                            <img src="images/privi-title-mob.png" alt="">
+                                        </div>
+
+                                        <a href="" class="btn-privi ldx ldx-rubber-v">
+                                            <img src="images/privi-btn.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <!-- 拍賣金礦 -->
+                                        <div class="privi-main m_10">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <!-- icon -->
+                                                    <div class="col-md-2 content icon-border">
+                                                        <img class="icon" src="images/privi-gold.png" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-7 content">
+                                                        <!-- 細項 -->
+                                                        <div class="m_10">
+                                                            <ul>
+                                                                <li class="title">
+                                                                    <img src="images/privi-gold-title.png" alt="">
+                                                                </li>
+                                                                <li>
+                                                                    <span class="text-space">7/14 (二)49号</span>
+                                                                    <a href="javascript:void(0)"
+                                                                        class="question tooltip">?
+                                                                        <span class="tooltiptext"
+                                                                            style="text-align: left;">拍卖金矿奖金说明 :<br>
+                                                                            每周二开出【台湾大乐透】<br>开奖最大号码*金矿数量=金矿价</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- 說明 -->
+                                                        <div class="explan">
+                                                            <span style="color:#dd643c">每个等级皆能领取1次金矿价</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 num">
+                                                        <div class="money"><span>￥2,891</span></div>
+                                                        <div class="time"><span>2020/8/5 (三)18:00派奖</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 新品 -->
+                                        <div class="privi-main m_10">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <!-- icon -->
+                                                    <div class="col-md-2 content icon-border">
+                                                        <img class="icon" src="images/privi-lottery.png" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-7 content">
+                                                        <!-- 細項 -->
+                                                        <div class="m_10">
+                                                            <ul>
+                                                                <li class="title">
+                                                                    <img src="images/privi-new-title.png" alt="">
+                                                                </li>
+                                                                <li>
+                                                                    <span class="text-space">台湾大乐返0.2%</span>
+                                                                    <a href="javascript:void(0)"
+                                                                        class="question tooltip">?
+                                                                        <span class="tooltiptext">新品尝鲜惠奖金说明<br>
+                                                                            <img src="images/tooltip-level.png" alt=""
+                                                                                style="margin:5px auto">
+                                                                        </span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- 說明 -->
+                                                        <div class="explan">
+                                                            <span style="color:#dd643c">新品尝鲜惠:2020/07/06
+                                                                12:00-2020/07/13 12:00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 num">
+                                                        <div class="money"><span>￥891</span></div>
+                                                        <div class="time"><span>2020/8/12(三)18:00派奖</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 滿年禮 -->
+                                        <div class="privi-main m_10">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <!-- icon -->
+                                                    <div class="col-md-2 content icon-border">
+                                                        <img class="icon" src="images/privi-year.png" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-7 content">
+                                                        <!-- 細項 -->
+                                                        <div class="m_10">
+                                                            <ul>
+                                                                <li class="title">
+                                                                    <img src="images/privi-year-title.png" alt="">
+                                                                </li>
+                                                                <li>
+                                                                    <span class="text-space">倒数365天派奖</span>
+                                                                    <a href="javascript:void(0)"
+                                                                        class="question tooltip">?
+                                                                        <span class="tooltiptext">注册满年礼奖金说明<br>
+                                                                            <img src="images/tooltip-year.png" alt=""
+                                                                                style="margin:5px auto">
+                                                                        </span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- 說明 -->
+                                                        <div class="explan">
+                                                            <span style="color:#dd643c">我的注册日期:北京时间2020/07/15</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 num">
+                                                        <div class="money"><span>￥2,891</span></div>
+                                                        <div class="time"><span>2021/7/21(三)18:00派奖</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="text-align: center;letter-spacing: 3px;color:#fff;">拍卖金矿/新品尝鲜惠/注册满年礼
+                                金矿数量结算的时间
+                                : 北京时间隔周一下午4点。</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer style="font-size: 16px;letter-spacing: 2px;color:#f35b1e">
+        ※数据资料每天16:00后更新※<br>
+        Copyright © e世博 Reserved
+    </footer>
+
+
+    <!-- mainjs -->
+    <script src="js/main.js"></script>
+    <script src="js/internal.js"></script>
+</body>
+
+</html>
