@@ -1383,11 +1383,13 @@ footer {
 
 .marquee-coin {
   position: absolute;
+  top:0;
   left: 0;
 }
 
 .marquee-coin2 {
   position: absolute;
+  top:0;
   right: 0;
 }
 
